@@ -8,9 +8,11 @@
 git clone https://github.com/liligga/some-python-bot.git
 cd some-python-bot
 git remote remove origin
+python -m venv venv
+.\venv\Scripts\activate
 ```
 
-Последняя команда важна! Она упростит загрузку завершенного проекта в Ваш(!) личный репозиторий.
+Третья команда важна! Она упростит загрузку завершенного проекта в Ваш(!) личный репозиторий.
 
 
 ### Survey router
